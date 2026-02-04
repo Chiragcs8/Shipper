@@ -225,7 +225,7 @@ const AppSidebar: React.FC = () => {
       >
         <nav className="flex flex-col gap-6 px-3">
           <div>
-            <h2 className="mb-4 text-xs uppercase text-gray-400 text-center">
+            <h2 className="mb-4 text-xs uppercase text-gray-400 text-center justify-items-center">
               {isCollapsed ? <HorizontaLDots /> : "Menu"}
             </h2>
             {renderMenuItems(navItems, "main")}
