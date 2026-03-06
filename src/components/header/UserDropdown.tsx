@@ -30,7 +30,7 @@ function toggleDropdown(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
             alt="User"
           />
         </span>
-        <div>
+        <div className="text-left pr-2" >
         <span className="block mr-1 font-medium text-theme-sm">Chirag</span>
         <span className="text-[10px]">APML XXXX</span>
         </div>
